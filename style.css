@@ -1,0 +1,23 @@
+@import url(header.css);
+@import url(content.css);
+@import url(footer.css);
+
+html, body {
+	min-height: 100%;
+}
+body {
+	font-weight: 300;
+	font-size: 16px;
+	background: #eeeeee;
+}
+* {
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .1s;
+}
+a {
+	color: #ee2a7b;
+	text-decoration: underline;
+}

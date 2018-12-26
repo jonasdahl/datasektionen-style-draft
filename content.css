@@ -1,0 +1,39 @@
+#container {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0px 20px 20px;
+}
+aside {
+	width: 260px;
+	position: fixed;
+}
+aside ul {
+	list-style-type: none;
+}
+aside ul li a {
+	display: block;
+	padding: 8px 10px;
+	list-style-type: none;
+	text-decoration: none;
+	font-weight: normal;
+	color: #444;
+}
+
+main {
+	background: #fff;
+	margin: 0 0 0 260px;
+	padding: 40px;
+	color: #555;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	line-height: 1.5;
+	border-radius: 2px;
+}
+main p {
+	margin: 5px 0 10px;
+}
+main h1, main h2, main h3, main h4, main h5, main h6 {
+	margin: 15px 0 0;
+}
+main :first-child {
+	margin-top: 0;
+}

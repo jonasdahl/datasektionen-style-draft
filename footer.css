@@ -1,0 +1,25 @@
+#footer-push {
+	height: 350px;
+}
+footer {
+	height: 300px;
+}
+#application {
+	margin-bottom: -350px;
+}
+footer .top {
+	background: #ddd;
+	height: 250px;
+}
+footer .bottom {
+	background: #bbb;
+	color: #fff;
+	text-align: center;
+	height: 50px;
+}
+footer > img {
+	height: 100px;
+	width: 100px;
+	margin: -50px auto;
+	display: block;
+}
